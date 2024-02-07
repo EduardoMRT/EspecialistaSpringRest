@@ -1,14 +1,13 @@
-package com.algaworks.algafood;
+package br.com.eduardo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AlgafoodApiApplication {
+public class FoodApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AlgafoodApiApplication.class, args);
-		
+		SpringApplication.run(FoodApiApplication.class, args);
 	}
 
 }
