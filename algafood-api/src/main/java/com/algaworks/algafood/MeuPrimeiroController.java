@@ -10,6 +10,10 @@ public class MeuPrimeiroController {
 	@GetMapping("/hello")
 	@ResponseBody // indica que o retorno deve ser como resposta
 	public String hello() {
-		return "Hello!";
+		return "Teste!";
 	}
 }
+
+//Class Loader - DevTools
+//Td o que nao muda = Base
+//Oq muda = restart
