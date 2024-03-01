@@ -17,7 +17,7 @@ public class Cliente {
 		this.telefone = telefone;
 	}
 	
-	public Boolean ativo() {
+	public Boolean ativar() {
 		return true;
 	}
 	
